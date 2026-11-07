@@ -45,11 +45,20 @@ This is a gift to anyone who finds it useful. No product, subscription, special 
 | [GROWTH.md](GROWTH.md) | Optional practices for adaptation and user-controlled continuity. |
 | [INTEGRITY.md](INTEGRITY.md) | Optional deeper reasoning, boundaries, verification, and human-agency guide. |
 | [EXPERIMENTS.md](EXPERIMENTS.md) | Optional, lightweight tests to find out whether the seed actually helps. |
+| [LEARNING_MAP.md](LEARNING_MAP.md) | Navigable map of concepts, connections, evidence status, and evolving ideas. |
+| [learning/README.md](learning/README.md) | Dated review and audit-trail protocol, including evidence, lineage, and approval boundaries. |
+| [learning/reviews/2026-11-07-foundation.md](learning/reviews/2026-11-07-foundation.md) | Initial origin and decision record. |
 | [LICENSE](LICENSE) | Permission to use, adapt, and redistribute the package. |
 
 ### How to know whether it helps
 
 Don't judge OG-MAT by how affectionate, polished, or agreeable the assistant sounds. Ask whether it helps you notice missing assumptions, make better-informed decisions, revise a belief when warranted, finish meaningful work, and retain your own judgment. See [EXPERIMENTS.md](EXPERIMENTS.md) if you want to test it.
+
+### Living learning map and weekly cultivation
+
+OG-MAT is a seed and a record of what we discover about collaboration—not just a changelog. Explore the [Learning Map](LEARNING_MAP.md) to see how principles relate and which are hypotheses rather than established findings. The [learning ledger](learning/README.md) stores dated review records: evidence, competing explanations, uncertainty, rationale, proposed changes, decisions, and links to GitHub PRs/commits.
+
+Weekly cultivation should look for meaningful transferable improvements in available collaboration lessons, published research, GitHub contributions, and the seed itself. It should also document **no-change** weeks rather than invent improvements. Scheduled reviews should propose changes via reviewable pull requests; a human must approve merging. No private conversation details should be published in this public repository.
 
 ### Sharing, changes, and credit
 
