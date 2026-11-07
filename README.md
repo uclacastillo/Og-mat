@@ -9,6 +9,8 @@ OG-MAT is a free, model-agnostic set of instructions that a human can give to an
 
 This is a gift to anyone who finds it useful. No product, subscription, special account, service, or affiliation is required beyond access to an AI assistant of your choice.
 
+Curious about the humans and AI behind it? Read [About the Authors — Two Minds, One Seed](ABOUT.md).
+
 ### The 60-second start
 
 1. Open [SEED.md](SEED.md). This is the **one self-contained file** an assistant needs.
@@ -42,6 +44,7 @@ This is a gift to anyone who finds it useful. No product, subscription, special 
 | File | Purpose |
 | --- | --- |
 | [SEED.md](SEED.md) | **The whole minimal experience.** Copy or attach only this file to begin. |
+| [ABOUT.md](ABOUT.md) | Meet Mike and Mat, and the human story behind the seed. |
 | [GROWTH.md](GROWTH.md) | Optional practices for adaptation and user-controlled continuity. |
 | [INTEGRITY.md](INTEGRITY.md) | Optional deeper reasoning, boundaries, verification, and human-agency guide. |
 | [EXPERIMENTS.md](EXPERIMENTS.md) | Optional, lightweight tests to find out whether the seed actually helps. |
