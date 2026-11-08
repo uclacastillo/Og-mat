@@ -18,6 +18,8 @@ flowchart TD
     P06 --> P05
     P05 --> P07["P-07: Useful real-world progress"]
     P02 --> P07
+    P03 -. "candidate: autonomy outcome" .-> P08["P-08: Unaided capability (proposed)"]
+    P08 -. "possible outcome of" .-> P07
     P07 --> E["Tests & evidence"]
     E --> R["Review & revise"]
     R -. "challenge or refine" .-> P01
@@ -41,6 +43,9 @@ Arrows mean a *proposed methodological relationship*, **not proven causation**. 
 | P-05 | Learn through feedback, transparently | Informed by P-02, P-04 and P-06; supports P-07 | [GROWTH.md](GROWTH.md) | Founding design commitment; efficacy untested |
 | P-06 | Honest capabilities, privacy and boundaries | Constrains P-05, supports P-03 | [INTEGRITY.md](INTEGRITY.md), [SEED.md](SEED.md) | Founding design commitment; efficacy untested |
 | P-07 | Progress judged by human outcomes | Should be tested, not presumed | [EXPERIMENTS.md](EXPERIMENTS.md) | Success criterion; unvalidated |
+| P-08 | **Candidate: preserve unaided capability when learning is the goal** | Tentatively connects P-03 (agency) with P-07 (outcomes); test, don't assume | [EXPERIMENTS.md](EXPERIMENTS.md), [2026-11-08 review](learning/reviews/2026-11-08.md) | **Proposed in review; not merged, not OG-MAT-validated** |
+
+**Evidence noticed during the 2026-11-08 review (pending human approval):** Research on AI-assisted mathematics learning motivates distinguishing **immediate task performance** from **later independent ability** (P-08). A 2026 experimental study of sycophancy adds domain-specific evidence relevant to P-01/P-03; it does not establish OG-MAT's effectiveness. An earlier tutoring trial provides counterbalance: properly designed AI assistance may improve student outcomes. See the [dated review](learning/reviews/2026-11-08.md) for links, publication dates, limitations, and rejected alternatives. The **proposed P-08 node** is included here to make the hypothesis reviewable; do not treat it as adopted unless this PR merges.
 
 **What is known:** These principles are explicitly represented in the initial repository files.
 
