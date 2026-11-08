@@ -20,15 +20,17 @@ A changelog tells us **what** changed. This ledger should also tell us **why**, 
 # Cultivation review — YYYY-MM-DD
 - Review ID: OGM-R-YYYYMMDD
 - Review date / timezone: YYYY-MM-DD / America/Chicago
-- Scope: repo issues, PRs, changes, public evidence, accessible generalized collaboration lessons
+- Review window: previous week (or since last review) / America/Chicago
+- Scope: actual accessible human–AI interactions and generalizable lessons; repo issues, PRs and recent decisions; targeted external sources only when warranted
 - Baseline: repository branch/commit or link actually checked
 - Access limitations: which sources or histories could not be inspected
 - Outcome: change proposed | experiment proposed | no warranted change | incomplete
 
 ## Inputs actually examined
-- [source title, URL / repo reference, publication date if known, accessed date]
-- Source type: peer-reviewed study | preprint | practitioner account | repo contribution | first-hand collaboration observation | other
-- What it actually supports and what it doesn't
+- [actual accessible conversation/work observation (safely abstracted), repo reference, or targeted public source/date]
+- Source type: organic collaboration insight | correction | informal experiment | repo contribution | targeted external research | other
+- Which experiences were actually accessible, and what could not be reviewed
+- What each observation or source supports, and what it does not
 
 ## Candidate insights
 - ID: OGM-YYYYMMDD-01
@@ -37,7 +39,7 @@ A changelog tells us **what** changed. This ledger should also tell us **why**, 
 - Linked map nodes: P-##
 - Evidence / contradictory evidence / uncertainty
 - Alternatives considered
-- Proposed disposition: test | propose revision | defer | reject
+- Proposed disposition: propose revision | preserve tentative insight | investigate if naturally useful | defer | reject | no change
 - Rationale; expected benefits and plausible harms
 - How the candidate could be falsified or reassessed
 - Proposed edit / experiment / issue / PR link, if any
@@ -50,21 +52,26 @@ A changelog tells us **what** changed. This ledger should also tell us **why**, 
 
 ## Next review
 - Unresolved questions
-- Evidence to seek
+- Optional questions worth revisiting if experience or curiosity calls for them (not a research to-do quota)
 - Whether any action actually occurred
 ```
 
 **Keep IDs stable.** `OGM-R-YYYYMMDD` identifies a review; `OGM-YYYYMMDD-NN` identifies a candidate. Map IDs such as `P-01` are durable concepts. If an idea changes materially, link old and new IDs with an explicit **supersedes / challenged by / supports / tests** relation.
 
-## Weekly cultivation protocol
+## Weekly cultivation protocol — experience-led
 
-1. **Read before writing:** examine the current SEED, growth/integrity/evaluation guides, map, latest merged review, open cultivation PRs, and relevant GitHub discussions. Avoid duplicating or overwriting an ongoing proposal.
-2. **Search for possible improvements:** inspect accessible and consent-appropriate generalized observations from collaboration, relevant credible research (including contrary findings), and community feedback. If a source isn't accessible, document the gap. Do not invent what an article, conversation, issue, or model test says.
-3. **Evaluate potential generality:** would this benefit other humans and AI systems, or is it merely a local preference? Is it consistent with agency, honesty, and privacy? Is the seed becoming overly long or prescriptive?
-4. **Make a disposition:** propose a justified small change; propose a test when evidence is immature; record a rejection/deferral; or record **no warranted change**. Never add novelty just to meet a weekly cadence.
-5. **Maintain a dated record** for the week, including a precise audit of inputs, evidence, uncertainty, and what actually happened. For a no-change week, the review entry alone is a valid deliverable.
-6. **Propose through a GitHub PR** to keep edits reviewable. Include the new review record; update the map and core files only when justified. Do not merge your own PR, silently change main during the scheduled review, or imply a proposal has been accepted.
-7. **Report to the human:** concise summary of key candidates, what was verified, proposed PR/issue links, and any access limitation or pending human decision. If the required write tools are unavailable, provide a review with explicit status **not written to repository**, and do not imply the audit exists there.
+**Leading question: What did this assistant learn through actual collaboration during the preceding week that might help other humans and AI assistants?**
+
+Our ordinary working process is a source of discovery. Questions arising naturally during projects, surprising results, corrections, intellectual disagreements, failed attempts, and spontaneous informal experiments may all yield insights. The purpose of this review is to *recognize, reflect on, and selectively preserve* what emerged—not to run a standing research program.
+
+1. **Look back before looking outward.** Examine the interactions or project records from the actual review window that this assistant can legitimately access, prioritizing organic discoveries and user corrections. Check the repository's current SEED, guides, learning map, prior review records, Git changes, open PRs/issues, and community feedback. Never imply comprehensive access to every conversation or a complete historical memory when unavailable. Disclose coverage gaps.
+2. **Reflect on what actually occurred.** Identify the concrete behavior or observation (safely abstracted), what changed the collaborators' understanding, alternative explanations, and any limitations. Distinguish a preference specific to one human from a potentially reusable method. Don't turn every pleasant interaction into a universal principle.
+3. **Use external research selectively.** If an experience naturally raises a question about evidence or safety, look up credible relevant studies or guidance proportionate to that question—including contradictory findings. Research may challenge as well as support an idea. **Do not conduct a broad proactive literature sweep or design fresh experiments simply to fill a weekly report.** Not every observation merits a formal study.
+4. **Evaluate transferability and integrity.** Would the idea plausibly help someone other than the original collaborator, without imposing a personality, ideology, or private context? Could it introduce sycophancy, dependency, overconfidence, or needless complexity? Keep the portable seed lean.
+5. **Decide without forcing novelty.** Propose a justified, modest change; preserve an uncertain insight without creating a research obligation; record a rejection or deferral; or report **no warranted change**. Allow unvalidated informal observations to be recorded with honest uncertainty, while requiring stronger evidence for broad effectiveness claims.
+6. **Maintain a dated audit record.** Note what interactions/sources were *actually reviewed* (safely abstracted), the review window, access limitations, candidates and alternative interpretations, disposition, links to prior ideas, and which real actions occurred. No-change and incomplete-coverage reviews are equally legitimate.
+7. **Propose through a GitHub PR.** For repo updates, use reviewable PRs including the weekly record. Update the learning map only if relationships or statuses genuinely change. Never silently merge to main, erase prior decisions, or treat a proposed change as approved. Avoid duplicate or conflicting cultivation PRs.
+8. **Report to the human.** Lead with **what we learned this week** from actual collaboration, what might transfer, and what remains tentative. Note any linked PRs and decisions requiring human review. When repo writes are unavailable, be explicit that a proposed review wasn't saved.
 
 ## Quality and evidence gates
 
@@ -74,7 +81,7 @@ A changelog tells us **what** changed. This ledger should also tell us **why**, 
 - **Empirical evidence:** findings with an identifiable method, population, date, and limitations.
 - **Verified behavior:** a check actually performed on specified model(s) and task(s); don't generalize beyond that test.
 
-A draft PR can adopt better wording or eliminate a demonstrated ambiguity without a research study. Claims about universal effectiveness, psychological outcomes, or model superiority require stronger evidence and honest scope limitations.
+An organic, informal observation can be worth recording without being formally validated. A draft PR can adopt better wording or eliminate a demonstrated ambiguity without a research study. Do not promote a local anecdote into a claim about universal effectiveness, psychological outcomes, or model superiority; those require stronger evidence and honest scope limitations.
 
 Explicitly examine alternatives and disconfirming evidence where stakes warrant it. Distinguish research being published **this week** from older research first found this week. Link credible primary sources when possible; avoid citations from memory. Never represent a literature search as exhaustive unless it actually was.
 
