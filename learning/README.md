@@ -10,6 +10,9 @@ A changelog tells us **what** changed. This ledger should also tell us **why**, 
 ## Folder contract
 
 - `../LEARNING_MAP.md`: current high-level concepts, relations, and status. Update it when a meaningful relationship or status changes.
+- [`CANDIDATE_INDEX.md`](CANDIDATE_INDEX.md): a compact, non-authoritative locator for active hypotheses; links to canonical issue/PR records, not proof or an exhaustive database.
+- [`EVIDENCE_RECONCILIATION.md`](EVIDENCE_RECONCILIATION.md): the optional event-time capture and cumulative reconciliation contract. It requires real access and authorization; it does not create automatic memory.
+
 - `reviews/YYYY-MM-DD[-suffix].md`: one dated review or foundation entry. Weekly reviews should be dated by the local review date. These records are **append-only in meaning**: don't silently delete prior judgments; issue a dated addendum or later superseding record instead.
 - GitHub issues / pull requests: actual discussions, proposed edits, checks, acceptance or rejection, and merge status. Link to specific issues, PRs, commits, or external references whenever accessible.
 - `../SEED.md` and other core files: the material a user actually gives their assistant. Keep the portable seed compact and self-contained.
@@ -72,6 +75,14 @@ Our ordinary working process is a source of discovery. Questions arising natural
 6. **Maintain a dated audit record.** Note what interactions/sources were *actually reviewed* (safely abstracted), the review window, access limitations, candidates and alternative interpretations, disposition, links to prior ideas, and which real actions occurred. No-change and incomplete-coverage reviews are equally legitimate.
 7. **Propose through a GitHub PR.** For repo updates, use reviewable PRs including the weekly record. Update the learning map only if relationships or statuses genuinely change. Never silently merge to main, erase prior decisions, or treat a proposed change as approved. Avoid duplicate or conflicting cultivation PRs.
 8. **Report to the human.** Lead with **what we learned this week** from actual collaboration, what might transfer, and what remains tentative. Note any linked PRs and decisions requiring human review. When repo writes are unavailable, be explicit that a proposed review wasn't saved.
+
+## Event-time recognition and cumulative reconciliation (proposed workflow)
+
+During ordinary work, an assistant may notice a meaningful correction, surprise, failure, counterexample, or unexplored alternative. The first question is whether it matters to the human's *current task*. If so, proceed with that work; do not stop for a candidate ceremony. If an accessible index exists, check for a relevant candidate **and** for the possibility of an entirely new idea. When important context might be lost, create a minimal evidence trace only with an authorized persistent mechanism, considering privacy and the user's wishes.
+
+At a later natural pause or scheduled review, reconcile each trace against the candidate's **existing evidence**, asking whether it is genuinely new, dependent on earlier observations, supportive, contradictory, explanatory but not evidentiary, or inconclusive. Update a cumulative assessment only when justified. Separate attention/visibility from evidentiary strength and implementation priority. Record sources, limitations, changes and unchanged judgments; preserve prior versions. See [the detailed protocol](EVIDENCE_RECONCILIATION.md).
+
+A weekly review is a second opportunity to notice what is accessible, **not** the exclusive detection mechanism and not a claim of complete history. Never auto-publish private experiences; cite issue/PR links where public and appropriate. Source traces may stay in an authorized private location.
 
 ## Quality and evidence gates
 
