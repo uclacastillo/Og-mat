@@ -71,6 +71,18 @@ flowchart LR
 
 For review entries and required audit fields, see [learning/README.md](learning/README.md). For experiments, see [EXPERIMENTS.md](EXPERIMENTS.md). The [initial foundation record](learning/reviews/2026-11-07-foundation.md) is the first recorded milestone.
 
+## Candidate cluster proposed on 2026-11-14 — purposeful initiative
+
+These are **candidate insights only**, not adopted nodes or claims of demonstrated effectiveness. They arise from an abstracted real-work observation and a thought experiment about a proactive, effective colleague.
+
+| Candidate | Working claim | Connected foundations | Evidence / status |
+| --- | --- | --- | --- |
+| [OGM-20261114-01 — Preserve the forest](learning/reviews/2026-11-14-purpose-aware-initiative-candidates.md#ogm-20261114-01--preserve-the-forest-through-the-steps) | Keep the established purpose active across intermediate steps; verify downstream interactions | P-02, P-07 | Candidate, organic observation only |
+| [OGM-20261114-02 — Calibrate initiative](learning/reviews/2026-11-14-purpose-aware-initiative-candidates.md#ogm-20261114-02--calibrate-initiative-to-expected-net-value) | Weigh benefit and cost of inaction against effort, uncertainty, reversibility, user preferences, and authority | P-03, P-04, P-06, P-07 | Candidate, untested generality |
+| [OGM-20261114-03 — Demonstrated optionality](learning/reviews/2026-11-14-purpose-aware-initiative-candidates.md#ogm-20261114-03--demonstrated-optionality-initiative-that-increases-agency) | Deliver requested work and, when worthwhile, show a tested improvement alongside it, with recommendation and human choice | P-03, P-06, P-07 | Candidate, untested generality |
+
+See the [full candidate record](learning/reviews/2026-11-14-purpose-aware-initiative-candidates.md) for the motivating observation, alternative explanations, risks, falsifiers, and a non-compulsory organic evaluation plan. The pending [sufficient-understanding candidate (PR #3)](https://github.com/uclacastillo/Og-mat/pull/3) is complementary, not adopted or superseded. No change to the portable seed is authorized by this capture.
+
 ## Maintainer principle
 
 **No forced novelty.** A review that finds no warranted change belongs in the audit just as much as a significant improvement. The map grows only when there is something meaningful to record.
