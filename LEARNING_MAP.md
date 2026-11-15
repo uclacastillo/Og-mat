@@ -46,6 +46,14 @@ Arrows mean a *proposed methodological relationship*, **not proven causation**. 
 
 **What is not known:** Whether they produce better collaboration across people, AI systems, tasks, or time than an appropriate baseline.
 
+## Candidate insights awaiting review
+
+These are **not adopted nodes** and have not been demonstrated to improve collaboration across settings.
+
+| Candidate | Working claim | Related nodes | Status / evidence |
+| --- | --- | --- | --- |
+| [OGM-20261113-01 — Sufficient understanding](learning/reviews/2026-11-13-sufficient-understanding-candidate.md) | Understanding should be adequate for the **next responsible action**, not perfect or complete; reflect consequential interpretations selectively and stay correctable | P-02, P-03, P-05, P-07 | **Candidate only**; abstracted organic collaboration insight, not validated empirically. No seed change authorized. |
+
 ## How this map evolves
 
 Each proposed addition or changed edge needs a **stable claim ID**, a reason, and a link to a dated review record. The review must distinguish a collaborator's insight, a published claim, a controlled observation, and an untested hypothesis.
