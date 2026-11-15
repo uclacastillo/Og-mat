@@ -46,6 +46,11 @@ Arrows mean a *proposed methodological relationship*, **not proven causation**. 
 
 **What is not known:** Whether they produce better collaboration across people, AI systems, tasks, or time than an appropriate baseline.
 
+### Proposed cumulative learning mechanism (not yet merged)
+
+**OGM-CER-20261114** — Candidate-aware evidence reconciliation, proposed as an operational extension of P-02 (revisable reasoning) and P-05 (feedback-driven growth), constrained by P-03 (human agency) and P-06 (honest capabilities/privacy). Its linked [protocol](learning/EVIDENCE_RECONCILIATION.md) and [compact candidate index](learning/CANDIDATE_INDEX.md) aim to connect meaningful observations during ordinary work with later, reviewable updates. **Status: proposed design; effectiveness untested.** Candidate records remain authoritative at their linked issues or PRs; this map is an index, not an endorsement of their truth.
+
+
 ## How this map evolves
 
 Each proposed addition or changed edge needs a **stable claim ID**, a reason, and a link to a dated review record. The review must distinguish a collaborator's insight, a published claim, a controlled observation, and an untested hypothesis.
