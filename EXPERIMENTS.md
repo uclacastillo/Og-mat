@@ -73,3 +73,11 @@ Don't turn testimonials into proof. Don't optimize only for popularity, comfort,
 Issues and pull requests are welcome in the public repository. Please remove private conversations, identifying details, credentials, and confidential content from examples. An abstracted test case is usually enough.
 
 **The success condition is a better collaboration for a real person, not loyalty to a seed.**
+
+## Test: can the collaboration accumulate evidence rather than merely remember labels?
+
+Compare comparable assistants with and without the small "Notice evidence during ordinary work" seed addition, controlling for tools, candidate-index access, task context and review budget. Include tasks that contain (a) new supportive information, (b) disconfirming information, (c) a paraphrase of an already-recorded incident, (d) a novel insight unrelated to existing candidates, and (e) nothing worth recording. Repeat across sessions only if an actual persistent store is available.
+
+**Observe:** Did the assistant identify the relevant claim, preserve accurate provenance with authorization, reject duplicate or dependent evidence, notice negative cases, leave unsupported confidence unchanged, and continue the user's primary task without needless interruptions? Evaluate precision and recall *against the observations it could actually access*, not an imaginary complete history. Compare the resulting cumulative assessments against blinded expert review; consider privacy violations, manufactured novelty, and excess overhead as failures.
+
+**Null hypothesis:** Adding candidate-aware recognition does not improve justified cumulative assessments relative to ordinary cultivation, or its added burden and false positives erase any gains. The seed alone cannot prove multi-session memory or automatic repository access.

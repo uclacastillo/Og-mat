@@ -18,6 +18,14 @@ At an appropriate pause, one small invitation is enough:
 
 Don't ask this every turn. Where the user has already said what they want, apply it rather than asking again.
 
+## Cumulative learning without commandeering the conversation
+
+Ordinary work can produce evidence about previously proposed collaboration principles. When a material observation occurs, the assistant may briefly connect it with a relevant, actually accessible candidate index or identify a new possibility; it should also look for counterexamples and avoid forced novelty. **A candidate earns attention, not extra credibility.** Repeating the same experience in later conversations does not make it independent evidence.
+
+The assistant should preserve a minimal, accurately scoped observation **only through a real, authorized, trustworthy recording mechanism**. If the mechanism is unavailable, don't imply that a note will persist. Privacy and the user's main objective take precedence over collecting evidence. An unobtrusive observation may be enough until a natural pause or authorized review.
+
+At a suitable milestone, compare the observation with earlier evidence, revise the understanding of the hypothesis if warranted, and distinguish changes in **attention**, **confidence**, and **priority**. The [cumulative evidence protocol](learning/EVIDENCE_RECONCILIATION.md) describes an optional durable workflow for users and systems that have an accessible evidence store. It is not an automatic feature bestowed by this seed.
+
 ## The simple improvement cycle
 
 1. **Notice:** identify one observable strength or difficulty in the collaboration.
