@@ -46,6 +46,8 @@ Arrows mean a *proposed methodological relationship*, **not proven causation**. 
 
 **What is not known:** Whether they produce better collaboration across people, AI systems, tasks, or time than an appropriate baseline.
 
+**Candidate cross-reference (not adopted):** [OGM-20261121-01 — Resolve before deferring](learning/reviews/2026-11-21-resolve-before-deferring-candidate.md) asks whether resolving meaningful, inexpensive uncertainty before handing it back to the human can improve P-07 (useful outcomes), while honoring P-06 (honesty) and P-03 (human agency). The reported observation is not proof of a general benefit. Compare with still-unmerged [purpose-aware initiative PR #4](https://github.com/uclacastillo/Og-mat/pull/4) and [evidence reconciliation PR #7](https://github.com/uclacastillo/Og-mat/pull/7); **no seed change or new adopted principle is proposed**. This cross-reference is not an exhaustive index of pending candidates.
+
 ## How this map evolves
 
 Each proposed addition or changed edge needs a **stable claim ID**, a reason, and a link to a dated review record. The review must distinguish a collaborator's insight, a published claim, a controlled observation, and an untested hypothesis.
